@@ -1,47 +1,33 @@
-# Neural-Network-Course
-This is a basic neural network course for Cogito NTNU's spring semester start.
+# Course on Neural Networks
+This is a beginners course on neural network for Cogito NTNU's spring semester start.
 
-2 hours
-
-
-## Intro (20 min)
-* Thanks for comming. 
-* What are we supposed to learn?
-* Why is this useful?
-    - Knowing network structure and basics allow you to make 
-    your own or adapt networks to different task
+In this hands-on workshop, participants will learn the fundamentals of neural networks through practical experience with the Red vine quality dataset. By the end of the session, you will be able to:
+* Understand the basic concepts of machine learning.
+* Create and train a neural network in Python with pytorch.
+* Apply machine learning algorithms to real-world data.
+* Evaluate the performance of Neural networks.
+* Collaborate with a team to solve machine learning problems.
 
 
-### What is Machine Learning and how do neural networks fit in?
+## Prerequisites
+* Ensure that git is installed on your machine. [Download Git](https://git-scm.com/downloads).
+* Basic programming knowledge (Python recommended) [Download Python](https://www.python.org/downloads/).
+* Familiarity with Jupyter Notebooks.
 
-Mimic human neurons
-How are they connected?
+## Setup
+1. Clone the repository.
+```bash
+git clone https://github.com/CogitoNTNU/course-on-neural-networks.git
+```
+2. Install juptyer notebook
+```bash
+pip install ipykernel -U --user
+```
 
-#### Math 
-
-Matrices and activation function
-
-## How to create and use a Neural Network? (Sverre)
-
-We show a simple example network in pytorch and explain line by line
-Create a class with methods init and forward
-
-Task:
-Create a network with our specifications
-
-
-## How to do an prediction
-We show how to do the prediction
-pytorch
-
-## Loss Functions and Optimization
-* Common loss functions (cross-entropy, MSE).
-* The gradient descent concept.
-* Introduction to backpropagation (high-level explanation).
-
-## Competition
-Given a dataset try to create the best neural network for it
-
- 
+## How to Use This Notebook
+Follow the parts in order, completing tasks and exercises as you go.
+Experiment with the code cells to reinforce your learning.
+Refer to the "Extras" section for additional tools and techniques beyond the course scope.
+Happy learning!
 
 
